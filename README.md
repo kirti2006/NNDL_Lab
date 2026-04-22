@@ -11,15 +11,15 @@ It covers fundamental concepts like **NumPy operations, data handling, activatio
 ```
 NNDL_Lab/
 │
-├── Experiment-1_NumPy/
-├── Experiment-2_Pandas/
-├── Experiment-3_SciPy/
-├── Experiment-4_Matplotlib/
-├── Experiment-5_Perceptron/
-├── Experiment-6_XOR_MLP/
-├── Experiment-7_Activation_Functions/
-├── Experiment-8_MLP/
-├── Experiment-9_Optimizers/
+├── Experiment-01_NumPy/
+├── Experiment-02_Pandas/
+├── Experiment-03_SciPy/
+├── Experiment-04_Matplotlib/
+├── Experiment-05_Perceptron/
+├── Experiment-06_XOR_MLP/
+├── Experiment-07_Activation_Functions/
+├── Experiment-08_MLP/
+├── Experiment-09_Optimizers/
 ├── Experiment-10_CNN/
 ├── Experiment-11_RNN/
 ├── Experiment-12_Hopfield/

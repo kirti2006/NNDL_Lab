@@ -81,7 +81,7 @@ NNDL_Lab/
 | 6   | XOR using MLP        | Solving non-linear problem                       |
 | 7   | Activation Functions | Sigmoid, ReLU implementation                     |
 | 8   | MLP                  | Multi-layer neural network                       |
-| 9   | Optimizers           | Gradient Descent & Loss Functions                |
+| 9   | Optimizers           | Gradient Descent, Adam Optimizer & Loss Functions|
 | 10  | CNN                  | Convolutional Neural Network                     |
 | 11  | RNN                  | Recurrent Neural Network                         |
 | 12  | Hopfield Network     | Associative memory model                         |

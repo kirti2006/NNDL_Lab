@@ -49,7 +49,7 @@ NNDL_Lab/
 │   └── mlp.py
 │
 ├── Experiment-09_Optimizers/
-│   ├── gradient_descent.py
+│   ├── optimizer_comparison.py
 │   ├── loss_functions.ipynb
 │   └── optimizer.ipynb
 │

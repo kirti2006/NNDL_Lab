@@ -2,7 +2,16 @@
 
 This repository contains the implementation of core **Neural Network and Deep Learning (NNDL)** lab experiments using Python.
 
-It covers fundamental concepts like **NumPy operations, data handling, activation functions, perceptron, MLP, CNN, RNN, and Hopfield networks**.
+It covers fundamental concepts like **NumPy, Pandas, SciPy, visualization, perceptron, MLP, CNN, RNN, optimization, and Hopfield networks**.
+
+---
+
+## 👨‍🎓 Submitted By
+
+* **Name:** Kirti
+* **Course:** B.Tech CSE (3rd Year)
+* **Subject:** NNDL Lab
+* **Roll Number:** 2301010165
 
 ---
 
@@ -12,25 +21,51 @@ It covers fundamental concepts like **NumPy operations, data handling, activatio
 NNDL_Lab/
 │
 ├── Experiment-01_NumPy/
+│   ├── numpy_demo.py
+│   └── numpy.ipynb
+│
 ├── Experiment-02_Pandas/
+│   ├── pandas_demo.py
+│   └── pandas.ipynb
+│
 ├── Experiment-03_SciPy/
+│   └── scipy_demo.py
+│
 ├── Experiment-04_Matplotlib/
+│   └── matplotlib_demo.py
+│
 ├── Experiment-05_Perceptron/
+│   ├── perceptron.py
+│   └── perceptron.ipynb
+│
 ├── Experiment-06_XOR_MLP/
+│   └── xor_mlp.py
+│
 ├── Experiment-07_Activation_Functions/
+│   ├── activation.py
+│   └── activation.ipynb
+│
 ├── Experiment-08_MLP/
+│   └── mlp.py
+│
 ├── Experiment-09_Optimizers/
+│   ├── gradient_descent.py
+│   ├── loss_functions.ipynb
+│   └── optimizer.ipynb
+│
 ├── Experiment-10_CNN/
+│   ├── cnn.py
+│   └── cnn.ipynb
+│
 ├── Experiment-11_RNN/
+│   ├── rnn.py
+│   └── rnn.ipynb
+│
 ├── Experiment-12_Hopfield/
+│   └── hopfield.py
+│
 └── README.md
 ```
-
-Each folder contains:
-
-* ✔ Python code file
-* ✔ Comments explaining logic
-* ✔ Ready-to-run scripts
 
 ---
 
@@ -42,13 +77,13 @@ Each folder contains:
 | 2   | Pandas               | Data manipulation using DataFrames               |
 | 3   | SciPy                | Scientific computing (integration, optimization) |
 | 4   | Matplotlib           | Data visualization using graphs                  |
-| 5   | Perceptron           | Binary classification (AND gate)                 |
+| 5   | Perceptron           | Binary classification (AND/OR logic gates)       |
 | 6   | XOR using MLP        | Solving non-linear problem                       |
 | 7   | Activation Functions | Sigmoid, ReLU implementation                     |
 | 8   | MLP                  | Multi-layer neural network                       |
-| 9   | Optimizers           | Gradient Descent                                 |
-| 10  | CNN                  | Image-based model                                |
-| 11  | RNN                  | Sequential data processing                       |
+| 9   | Optimizers           | Gradient Descent & Loss Functions                |
+| 10  | CNN                  | Convolutional Neural Network                     |
+| 11  | RNN                  | Recurrent Neural Network                         |
 | 12  | Hopfield Network     | Associative memory model                         |
 
 ---
@@ -61,6 +96,7 @@ Each folder contains:
 * SciPy
 * Matplotlib
 * TensorFlow / Keras
+* Jupyter Notebook
 
 ---
 
@@ -87,7 +123,7 @@ pip install numpy pandas scipy matplotlib tensorflow
 4. Run any experiment:
 
 ```
-python Experiment-6_XOR_MLP/xor_mlp.py
+python Experiment-06_XOR_MLP/xor_mlp.py
 ```
 
 ---
@@ -113,20 +149,13 @@ Output (Predicted):
 ## 🧠 Key Concepts Covered
 
 * Perceptron Learning
-* Non-linear classification (XOR problem)
+* Linear vs Non-linear classification
 * Activation functions
 * Backpropagation
 * Gradient Descent optimization
+* Loss functions (MSE, MAE, Cross Entropy)
 * Deep learning architectures (CNN, RNN)
 * Associative memory (Hopfield Network)
-
----
-
-## ⚠️ Notes
-
-* TensorFlow runs on CPU (GPU not required for lab experiments)
-* Avoid naming files same as libraries (e.g., numpy.py, pandas.py)
-* Use Python version 3.8–3.11 for best compatibility
 
 ---
 
@@ -134,24 +163,13 @@ Output (Predicted):
 
 After completing these experiments, you will be able to:
 
-* Understand basic neural network concepts
+* Understand neural network fundamentals
 * Implement deep learning models
 * Work with scientific Python libraries
-* Solve classification problems using ML techniques
-
----
-
-## 👨‍💻 Author
-
-**Kirti**
-B.Tech CSE (3rd Year)
+* Solve real-world ML problems
 
 ---
 
 ## ⭐ Acknowledgment
 
-This lab work is part of the academic curriculum for Neural Networks and Deep Learning.
-
----
-
-⭐ If you find this helpful, consider giving a star to the repository!
+This lab work is part of the academic curriculum for **Neural Networks and Deep Learning (NNDL)**.

@@ -10,7 +10,7 @@ It covers fundamental concepts like **NumPy, Pandas, SciPy, visualization, perce
 
 * **Name:** Kirti
 * **Course:** B.Tech CSE (3rd Year)
-* **Subject:** NNDL Lab
+* **Subject:** NNDL lab
 * **Roll Number:** 2301010165
 
 ---
